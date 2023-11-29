@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kramerbalazs/RiderProjects/reorder/reorder/reorder.csproj",
+      "projectUniqueName": "/Users/kramerbalazs/Downloads/C#/new/reorder/reorder.csproj",
       "projectName": "reorder",
-      "projectPath": "/Users/kramerbalazs/RiderProjects/reorder/reorder/reorder.csproj",
+      "projectPath": "/Users/kramerbalazs/Downloads/C#/new/reorder/reorder.csproj",
       "packagesPath": "/Users/kramerbalazs/.nuget/packages/",
-      "outputPath": "/Users/kramerbalazs/RiderProjects/reorder/reorder/obj/",
+      "outputPath": "/Users/kramerbalazs/Downloads/C#/new/reorder/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kramerbalazs/.nuget/NuGet/NuGet.Config"

@@ -1,0 +1,96 @@
+Példa:
+
+-- input --
+1,0,1,0,1,0
+-- input --
+
+
+Program.cs - main()
+
+beolvasas utan:
+
+s = "1,0,1,0,1,0"
+int[] input = 1,0,1,0,1,0
+
+int cnt = ReorderInput(input)
+
+Function hivas:
+
+int n = 6
+int cnt = 0
+
+int i = 0
+int j = 5
+seq = 1,0,1,0,1,0
+
+innentol:
+
+
+i = 0
+j = 5
+cnt = 0
+
+if (seq[i] == 1 && seq[j] == 0) IGAZ
+
+seq = 0,0,1,0,1,0
+cnt++
+
+if (seq[i] == 0) HAMIS
+if (seq[j] == 1) HAMIS
+
+i = 0
+j = 5
+cnt = 1
+seq = 0,0,1,0,1,1
+
+if (seq[i] == 1 && seq[j] == 0) HAMIS
+if (seq[i] == 0) IGAZ
+if (seq[j] == 1) IGAZ
+
+i = 1
+j = 4
+cnt = 1
+seq = 0,0,1,0,1,1
+
+if (seq[i] == 1 && seq[j] == 0) HAMIS
+if (seq[i] == 0) IGAZ
+if (seq[j] == 1) IGAZ
+
+i = 2
+j = 3
+cnt = 1
+seq = 0,0,1,0,1,1
+
+if (seq[i] == 1 && seq[j] == 0) IGAZ
+
+seq = 0,0,0,1,1,1
+cnt++
+
+if (seq[i] == 0) HAMIS
+if (seq[j] == 1) HAMIS
+
+i = 2
+j = 3
+cnt = 2
+seq = 0,0,0,1,1,1
+
+if (seq[i] == 1 && seq[j] == 0) HAMIS
+if (seq[i] == 0) IGAZ
+if (seq[j] == 1) IGAZ
+
+i = 3
+j = 2
+cnt = 2
+seq = 0,0,0,1,1,1
+
+for loop vege mivel i nem < j
+
+cnt visszaadasa es visszalepes a main()-be
+
+cnt kiirasa 
+
+vege a main()-nek
+
+-- output --
+2
+-- output --
